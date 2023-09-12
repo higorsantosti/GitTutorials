@@ -5,11 +5,11 @@ let altura = 180;
 console.log(altura);
 
 
-const pika = "chupa meu pau"
+const pika = "teste"
 console.log(pika);
 
 
-//criando objeto
+//criando objeto {}
 
 let pessoa = {
     nome: "higor",
@@ -18,3 +18,9 @@ let pessoa = {
 };
 
 console.log(pessoa);
+
+//criando Array []
+
+let familia = [26,'higor',20,true];
+
+console.log(familia[1]);
