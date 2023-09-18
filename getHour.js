@@ -9,13 +9,20 @@ const daysWeekend = ['Saturday'];
 
 const now = new Date();
 
+
+
+
 const dayOfWeek = getDayOfWeek(now);
 
 const isDayWeek = days.includes(dayOfWeek);
 const isDayWeekend = daysWeekend.includes(dayOfWeek);
 
+console.log(isDayWeek);
+
+
 function isShouldRun() {
-  return isDayWeekend && isTime(scheduleWeekend) || isDayWeek && isTime(scheduleDaysWeek);
+  return isDayWeekend && isTime(scheduleWeekend) 
+  || isDayWeek && isTime(scheduleDaysWeek);
 } 
 
 function isTime(schedules) {

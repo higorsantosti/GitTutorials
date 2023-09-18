@@ -45,6 +45,3 @@ resetaCor("amarelo", "claro");
 console.log(corSite);
 
 
-//    https://www.youtube.com/watch?v=i6Oi-YtXnAU&t=393s
-
-//  aos 38 minutos
